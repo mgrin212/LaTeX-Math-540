@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.20)  22 OCT 2021 08:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.20)  22 OCT 2021 12:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,12 +1205,39 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-AED: lastpage setting LastPage
-/Users/matthewgrinberg/IdeaProjects/Math 540/src/LaTeX-Math-540/main.tex:145: U
+LaTeX Warning: Command \L invalid in math mode on input line 142.
+
+/Users/matthewgrinberg/IdeaProjects/Math 540/src/LaTeX-Math-540/main.tex:142: U
+ndefined control sequence.
+<recently read> \varpsi 
+                        
+l.142 ...fore, the matrix is [1 1 0]. For $\varpsi
+                                                  _3$, we see that $v^*_3$ i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/matthewgrinberg/IdeaProjects/Math 540/src/LaTeX-Math-540/main.tex:144: U
 ndefined control sequence.
 <argument> \Large PSET 7 \hwnumber 
                                    
-l.145 \end{document}
+l.144     \end{enumerate}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3] 
+AED: lastpage setting LastPage
+/Users/matthewgrinberg/IdeaProjects/Math 540/src/LaTeX-Math-540/main.tex:157: U
+ndefined control sequence.
+<argument> \Large PSET 7 \hwnumber 
+                                   
+l.157 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1218,15 +1245,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3] (/Users/matthewgrinberg/IdeaProjects/Math 540/src/LaTeX-Math-540/main.aux)
+[4] (/Users/matthewgrinberg/IdeaProjects/Math 540/src/LaTeX-Math-540/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24197 strings out of 478994
- 444808 string characters out of 5858183
+ 24205 strings out of 478994
+ 444867 string characters out of 5858183
  729770 words of memory out of 5000000
- 41226 multiletter control sequences out of 15000+600000
+ 41227 multiletter control sequences out of 15000+600000
  415385 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,11n,88p,1520b,882s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1241,12 +1268,13 @@ al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+l/texlive/2021/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on "/Users/matthewgrinberg/IdeaProjects/Math 540/src/LaTeX-Math-
-540/main.pdf" (3 pages, 111856 bytes).
+540/main.pdf" (4 pages, 123308 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

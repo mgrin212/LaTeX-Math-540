@@ -138,8 +138,20 @@
         Let \(W\) be any subspace of \(V\) such that \(V = U \oplus W\).  We must show that \(V/U \simeq W\). First, let $u_1,...,u_n$ be a basis of $U$ and $v_1 + U,...,v_n + U$ be a basis of $V/U$. Because $U \oplus W = V$ is a direct sum, we can represent the basis of $W$ as $v_1 + U - U +...+v_n + U - U$, or simply $v_1,...,v_n$. Now, using the proof from part b, we see that a map $\phi : V/U \to W$ where $W = span(v_1,...,v_n)$ is an isomprphism between $V/U$ and $W$ because it is both injective and surjective.
     \end{enumerate}
     \section*{Problem 6}
-    bruh moment
+    \begin{enumerate}[label=\alph*]
+        \item Given basis \(v_1 = e_1\), \(v_2 = e_1 + e_2\), and \(v_3 = e_1 + e_2 + e_3\) for \(\rr^3\).  Write \(\varphi_1 = v_1^*, \varphi_2 =v_2^*\) and \( \varphi_3 = v_3^*\) for the corresponding dual basis of \(\L(\rr^3, \rr)\). For map $\varphi_1$, we see that $v^*_1$ is sent to $e_1$, which can also be represented as $1e_1 + 0e_2 + 0e_3$, giving the matrix [1 0 0]. For $\varphi_2$, $v^*_2$ is sent to $1e_1 + 1e_2 + 0e_3$, and $e_3$ to zero. Therefore, the matrix is [1 1 0]. For $\varpsi_3$, we see that $v^*_3$ is sent to $1e_1+1e_2+1e_3$, so each standard basis is added together, giving the matrix [1 1 1].
+        \item Given \(\varphi \colon \rr^3 \to \rr\) given by $\varphi \left( \begin{bmatrix} x \\ y \\ z \end{bmatrix} \right) = 2x - y +z$, we must write this in terms of basis vectors. To start, we see that the output of $\varphi$ can be written as $2e_1-e_2+e_3$, or as the matrix [2 -1 1]. Now, we must write this matrix as the coefficients of a linear combination of \(\varphi_1, \varphi_2,\varphi_3\). This results in a matrix of [3 -2 1].
+    \end{enumerate}
+    \section*{Problem 7}
+    Given \(v_1, \dots, v_n\) as a basis of \(V\) and let \(\varphi_1 = v_1^*, \dots, \varphi_n = v_n^*\) denote the corresponding dual basis of \(V^*\).  Suppose \(\psi \in V^*\).  We must show that
+    \(\ \psi = \psi(v_1)\varphi_1 + \cdots + \psi(v_n)\varphi_n. \). To show this, we must show that $\phi$ can be written as a linear combination $\phi = c_1 v^*_1+...+c_n v^*_n$, because $v^*_1,...,v_1^*$ is the dual basis for $V^*$, and $\psi /in V^*$.
+    Because $\varphi$ is an element of the dual of $V$, it maps a $v \in V$ to a scalar $\ff$. This means that every $\varphi(v_1),...,\varphi(v_n)$ can be denoted by some constant $c_1,...,c_n$. Plugging this in, we get $\psi = c_1 \varphi_1+...+ c_n \varphi_n$. Because $\varphi_j = v^*_j$, we can substitute and get $\psi = c_1 v_1^*+...+c_n v^*_n$, proving our proposition.
 
-
+    \section*{Problem 8}
+    Given finite-dimensional vector spave $V$
+    \begin{enumerate}[label=\alph*]
+        \item Given $U,W$ are subsets of $V$ with $U \subset W$, we must show that $W^0 \subset U^0$. To start, we can assume that $\varphi \in W^0$, so $\varphi (w) = 0$ $ \forall w \in W$. Because $U$ is contained within $W$, we see that $\varphi (u) = 0$  $\forall u \in W$. Because this holds for any chosen $\varphi \in W$, we can see that $W^0 \subset U^0$.
+        \item Given $U,W$ are subsets of $V$ with $W^0 \subset U^0$, we must show that $U \subset W$. Let $w_1,...,w_n$ be a basis for $W$. Assuming that $U$ is not contained within $W$, we can extend this to a basis for $V$ by making it $w_1,...,w_n,v,v_1,...,v_m$ where all $v_k \in U$. Let $\varphi \in V^*$ be defined by $\varphi (w_j) = 0$, $\varphi(v) = 1$, and $\varphi (v_i) = 0$. Here, we see that $\varphi \in W^0$ but $\varphi \notin U^0$. Therefore, this is a contradiction, and hence $U$ must be contained within $W$.
+    \end{enumerate}
 
 \end{document}
